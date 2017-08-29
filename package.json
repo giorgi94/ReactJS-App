@@ -14,8 +14,8 @@
   "author": "giorgi",
   "license": "MIT",
   "dependencies": {
-    "react-dom": "^15.6.1",
-    "reactjs": "^1.0.0"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
