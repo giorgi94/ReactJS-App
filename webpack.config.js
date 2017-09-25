@@ -11,8 +11,8 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
 
 var config = {
     entry: {
-    	index: path.resolve(__dirname, 'src/pages/index.js'),
-    	vendors: ['react', 'react-dom']
+    	index: path.resolve(__dirname, 'src/app/index.js'),
+    	vendors: ['react', 'react-dom', 'redux']
     },
     output: {
         path: path.resolve(__dirname, 'dist/static'),
